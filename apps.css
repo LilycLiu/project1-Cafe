@@ -1,0 +1,656 @@
+body{
+    margin: 0;
+}
+#breakfast{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+}
+.topbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ff0000;
+    flex-direction: row;
+    width: 100%;
+}
+.h1terrys{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+    margin: 0px 200px 0px 20px;
+}
+.topicons{
+    display: flex;
+    align-content:space-between
+}
+
+.topmiddlebar{
+    display: flex;
+    align-items: stretch;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1{
+    color: white;
+    padding: 0.5px;
+    margin-left: 0.2px;
+    margin-right: 0.2px; 
+}
+
+#ABOUT{
+    color: white;
+    font-size: large;
+    padding: 20px;
+    text-align:center;
+    margin: 10px;
+
+} 
+#MENUS{
+    color: white;
+    font-size: large;
+    padding: 20px;
+    text-align:center;
+    margin: 10px;
+} 
+#NEWS{
+    color: white;
+    font-size: large;
+    padding: 20px;
+    margin: 10px;
+    text-align:center;
+}
+#ONLINE{
+    color: white;
+    font-size: large;
+    padding: 20px;
+    margin: 10px;
+    text-align:center;
+}
+#CONTACT{
+    color: white;
+    font-size: large;
+    padding: 20px;
+    text-align:center;
+    margin: 10px;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 1px;
+    width: 5px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    align-items: stretch;
+}
+img {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.restinfo{
+    display: flex;
+    background-color: red;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+.openingtime{
+    font-family: Arial, Helvetica, sans-serif;
+    position:relative;
+    min-width: 400px;
+    border: 2px solid ;
+    border-color: red;
+    border-inline-end-color: white;
+}
+h2{
+    position: relative;
+    color: #FFBF00;
+}
+/* .day2{
+    display: flex;
+    position:relative;
+    margin: 4px;
+    padding: px;
+    float: left;
+    width: 20%;
+    justify-content:stretch;
+    color:white;
+ 
+} */
+.day1{
+    color:white;
+    padding-left: 10px;
+}
+.time1{
+    color:white;
+    padding-left: 35px;
+}
+.day2{
+    padding-left: 30px;
+    color:white;
+}
+.time2{
+    color:white;
+    padding-left: 30px;
+}
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+/* .weekendopentime{
+    display: flex;
+    position:relative;
+    margin:2px;
+    padding: 50px;
+    float: right;
+    width: 20%;
+    justify-content:stretch;
+    color:white;
+
+} */
+.location{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    border: 2px solid ;
+    border-color: red;
+    border-inline-end-color: white;
+    padding-right: 50px;
+}
+.restmenu{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+a {
+    color: white;
+    text-decoration:none;
+}
+a:hover {
+    color: yellow;
+  }
+.google-map {
+    padding-bottom: 0.2%;
+    position: relative;
+}
+
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+.cafeintro{
+    display: flex;
+    background-color: antiquewhite;
+    position: relative;
+    justify-content: center;
+}
+.coffeepenimg{
+    float: left;
+    padding-top: 120px;
+    padding-left: 60px;
+    position: relative;
+}
+.cafequote{
+    padding-top: 0.5px;
+    padding-left: 0.5px;
+    top: 100px;
+    left: 50px;
+}
+.re{
+    height:2px;
+    border-width:0;
+    background-color:rgb(255, 0, 128);
+    margin-left: 80px;
+    width:10%;
+}
+.brekkiimg{
+    float: left;
+    padding-top: 180px;
+    padding-left: 330px;
+    position: absolute;
+    top: 550px;
+    left: 400px;
+    padding-top: 0%;
+}
+.restlogo{
+    float: right;
+    padding-top: 750px;
+    padding-right: 400px;
+    top: 250px;
+    left: 100px;  
+}
+.md{
+   color: red; 
+   font-size: 40px;
+   padding-top: 80px;
+   padding-left: 80px;
+}
+.mdr{
+   color: red; 
+   font-size: 40px;
+   padding-top: 80px;
+
+}
+.mr{
+    margin:0px;
+}
+.buttoncon{
+    margin:0px;
+}
+.cq{
+    color: red;-webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:red;
+    padding-left: 40px;
+    font-size: large;
+    padding-right: 100px;
+    text-align:left;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+.des{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 80px;
+    font-size: medium;
+    padding-right: 100px;
+    text-align:left;
+}
+.buttonmen:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.buttonmen{
+    margin-left: 80px;
+    padding-right: 10px 24px;
+    font-size: 20px;
+    border: 0.2px solid red;
+    background-color: antiquewhite;
+    color: red;
+    width:300px;
+    height:60px;
+}
+
+#coffeepen{
+    border-radius: 40px;
+}
+#brekki{
+    border-radius: 40px;
+}
+
+.cafetakeaway{
+    display: flex;
+    background-color: antiquewhite;
+    position: relative;
+    height: 722px;
+}
+.ra{
+    height:2px;
+    border-width:0;
+    background-color:rgb(255, 0, 128);
+    margin-bottom:40px;
+    margin-top: 20px;
+    margin-left: 0px;
+    width:10%;
+}
+.resttakeaway{
+    padding-top: 0.5px;
+    padding-left: 300px;
+    top: 100px;
+    left: 50px;
+}
+.morningpastryimg{
+    float: right;
+    padding-top: 120px;
+    padding-right: 400px;
+}
+#Goodmorning{
+    border-radius: 40px;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 600px;
+    margin-left: 1100px;
+    margin-top: 120px;
+}
+#pastry{
+    border-radius: 40px;
+    position: relative;
+    top:300px;
+    right: 200px;
+}
+.mr{
+    color: red;-webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:red;
+    padding-left: 0px;
+    font-size:25px;
+    padding-right: 200px;
+    /* text-align:left; */
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+.newad{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin-left: 80px;
+}
+.buttoncon{
+    padding-right: 10px 24px;
+    font-size: 20px;
+    border: 0.2px solid red;
+    background-color: antiquewhite;
+    color: red;
+    width:300px;
+    height:60px;
+}
+.buttoncon:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.homecooking{ 
+    justify-content: center;
+    display: flex;
+    background-color: white;
+}
+.homecookexplain{
+    padding-top: 100px;
+    float: left;
+    position: relative;
+}
+.clubsandimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+}   
+#clubsandwich{
+    border-radius: 40px;
+    float: right;
+    padding-left: 0px;
+}
+.mh{
+    color: red; 
+    font-size: 40px;
+    padding-top: 10px;
+    padding-left: 0.5px;
+}
+.ma{
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rb{
+    height:2px;
+    border-width:0;
+    background-color:rgb(255, 0, 128);
+    margin-left: 0px;
+    width:10%;
+}
+.fa-tripadvisor{
+    font-size:24px;
+    color:red;
+
+}
+.cookingkit{
+    justify-content: space-around;
+    display: flex;
+    background-color: antiquewhite;
+}
+.kitimg{
+    height: 400;
+    position: relative;
+    padding-top: 160px;
+}
+.kitinfo{
+    position: relative;
+    padding-top: 120px;
+    padding-right: 180px;
+}
+.kit{
+    color: red; 
+    font-size: 40px;
+    padding-top: 10px;
+    padding-left: 0.5px;
+}
+.rc{
+    height:2px;
+    border-width:0;
+    background-color:rgb(255, 0, 128);
+    margin-left: 0px;
+    width:10%;
+}
+.buttonkit{
+    margin-left: 80px;
+    padding-right: 10px 24px;
+    font-size: 20px;
+    border: 0.2px solid red;
+    background-color: antiquewhite;
+    color: red;
+    width:300px;
+    height:60px;
+}
+.buttonkit:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+#cookit{
+    border-radius: 40px;
+    float: right;
+    top:250px;
+    padding-left: 10px;
+}
+.newad{
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin-left: 0px;
+}
+.buttonkit{
+    padding: 0;
+    margin: 0;
+}
+.instagramimg{
+    padding-top: 80px;
+}
+.breakimg{
+    padding-top: 150px;
+    display: flex;
+    background-color: antiquewhite;
+}
+.instagramimg{
+    text-align: center;
+}
+#pancakes{
+    padding: 150px 0px 100px 0px;
+}
+.follow{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #9D7312;-webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:#9D7312;
+}
+.snaps{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+.youtubevideos{
+    text-align: center;
+}
+.buttonnews{
+    color: black;
+}
+.cafenews{
+    text-align: center;
+}
+.TNews{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #9D7312;-webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:#9D7312;
+}
+.updates{
+    font-family: baskerville-urw, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", serif;
+    --wp--preset--color--cyan-bluish-gray: #abb8c3;
+}
+.buttonnews{
+    font-size: 15px;
+    border: 0.2px solid black;
+    color: black;
+    width:300px;
+    height:60px;
+    background-color: white;
+}
+.buttonnews:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.rd{
+    height:2px;
+    border-width:0;
+    background-color:rgb(255, 234, 0);
+    width:3%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.re{
+    height:1px;
+    border-width:0;
+    background-color:rgb(255, 234, 0);
+    width:3%;
+    margin: 40px auto 100px auto;
+}
+.rf{
+    height:1px;
+    border-width:0;
+    background-color:red;
+    width:10%;
+    margin-left: 0;
+    margin-right: auto;  
+}
+.cafetshirt{
+    justify-content: space-around;
+    display: flex;
+    background-color: antiquewhite;
+}
+#tshirt{
+    border-radius: 40px;
+    float: right;
+    top:250px;
+    padding-left: 10px;
+}
+.tshirtimg{
+    height: 400;
+    position: relative;
+    padding-top: 120px;
+    padding-left: 100px;
+}
+.tshirtinfo{
+    position: relative;
+    padding-top: 210px;
+    padding-right: 200px;
+}
+.today{
+    color: red; 
+    font-size: 20px;
+    padding-left: 0.5px;
+}
+.tshirt{
+    color: red; 
+    font-size: 40px;
+    padding-left: 0.5px;
+    justify-items: start;
+}
+.onlineshop{
+    color: red;
+}
+.onlineshop:hover{
+
+    color: red;
+    cursor: pointer;
+}
+.tsocial{
+    font-size: 18px;
+    padding-top: 10px;
+    padding-left: 0.5px;
+}
+.bottominfo{
+    background-color: red;
+}
+.cafelogo{
+    padding-top: 50px;
+    width: 600px;
+}
+.bottomicons{
+    text-align: center;
+}
+/* .weekopentime2{
+  float: left;  
+}
+.weekendopentime2{
+    float: right;
+} */
+.cafetshirt{
+    padding-bottom: 120px;
+}
+.bottominfo{
+    background-color: red;
+}
+.openlocmen{
+    display: flex;
+    background-color: red;
+    justify-content: center;
+}
+.openingtime2{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 100px;
+    border: 2px solid ;
+    border-color: red;
+    border-inline-end-color: white;
+}
+.weekopentime2{
+    display: flex;
+    /* position:relative; */
+    margin: 4px;
+    padding-left: 100px;
+    float: left;
+    width: 20%;
+    /* justify-content:stretch; */
+    color:white;
+ 
+}
+.weekendopentime2{
+    display: flex;
+    float: right;
+    width: 20%;
+
+    color:white;
+}
+.location2{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    border: 2px solid ;
+    border-color: red;
+    border-inline-end-color: white;
+    padding: 0px 100px 0px 100px; 
+}
+.restmenu1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.restmenu1{
+    padding-left: 100px;
+}

@@ -110,17 +110,7 @@ h2{
     position: relative;
     color: #FFBF00;
 }
-/* .day2{
-    display: flex;
-    position:relative;
-    margin: 4px;
-    padding: px;
-    float: left;
-    width: 20%;
-    justify-content:stretch;
-    color:white;
- 
-} */
+
 .day1{
     color:white;
     padding-left: 10px;
@@ -141,17 +131,7 @@ ul {
     padding: 0;
     list-style-type: none;
 }
-/* .weekendopentime{
-    display: flex;
-    position:relative;
-    margin:2px;
-    padding: 50px;
-    float: right;
-    width: 20%;
-    justify-content:stretch;
-    color:white;
 
-} */
 .location{
     font-family: Arial, Helvetica, sans-serif;
     color:white;
@@ -398,14 +378,15 @@ a:hover {
 
 }
 .cookingkit{
-    justify-content: space-around;
+    justify-content: center;
     display: flex;
     background-color: antiquewhite;
 }
 .kitimg{
-    height: 400;
+    height: 500;
     position: relative;
     padding-top: 160px;
+    padding-right: 200px;
 }
 .kitinfo{
     position: relative;
@@ -483,7 +464,15 @@ a:hover {
     color: grey;
 }
 .youtubevideos{
-    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: antiquewhite;
+    
+}
+.youtubevideos img{
+    width: 400px;
+    height: 500px;
 }
 .buttonnews{
     color: black;
@@ -540,15 +529,14 @@ a:hover {
     margin-right: auto;  
 }
 .cafetshirt{
-    justify-content: space-around;
+    justify-content: center;
     display: flex;
     background-color: antiquewhite;
 }
 #tshirt{
-    border-radius: 40px;
     float: right;
     top:250px;
-    padding-left: 10px;
+    padding-right: 200px;
 }
 .tshirtimg{
     height: 400;
